@@ -8,19 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+  @State private var showingSheet = false
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+  var body: some View {
+
+    VStack {
+      HStack {
+          Text("Welcome, Sandy!")
+
+        Button {
+          showingSheet.toggle()
+        } label: {
+          Image(systemName: "arrowshape.right")
+        }
+
+      }
+      .sheet(isPresented: $showingSheet) {
+        OnboardingScreen()
     }
+      Spacer()
+    }
+  }
+
+  struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+      ContentView()
+    }
+  }
 }

@@ -11,14 +11,17 @@
 		5AE6B83929E095B0005A443C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B83829E095B0005A443C /* ContentView.swift */; };
 		5AE6B83B29E095B1005A443C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE6B83A29E095B1005A443C /* Assets.xcassets */; };
 		5AE6B83E29E095B1005A443C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE6B83D29E095B1005A443C /* Preview Assets.xcassets */; };
+		5AE6B84629E11B10005A443C /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6B84529E11B10005A443C /* OnboardingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5AE6B83329E095B0005A443C /* KayPetDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KayPetDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE6B83629E095B0005A443C /* KayPetDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayPetDiaryApp.swift; sourceTree = "<group>"; };
-		5AE6B83829E095B0005A443C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AE6B83829E095B0005A443C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		5AE6B83A29E095B1005A443C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AE6B83D29E095B1005A443C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AE6B84429E0D78B005A443C /* SF-Symbols-4.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Symbols-4.dmg"; path = "../../../../../Downloads/SF-Symbols-4.dmg"; sourceTree = "<group>"; };
+		5AE6B84529E11B10005A443C /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,7 @@
 			children = (
 				5AE6B83629E095B0005A443C /* KayPetDiaryApp.swift */,
 				5AE6B83829E095B0005A443C /* ContentView.swift */,
+				5AE6B84529E11B10005A443C /* OnboardingScreen.swift */,
 				5AE6B83A29E095B1005A443C /* Assets.xcassets */,
 				5AE6B83C29E095B1005A443C /* Preview Content */,
 			);
@@ -62,6 +66,7 @@
 		5AE6B83C29E095B1005A443C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				5AE6B84429E0D78B005A443C /* SF-Symbols-4.dmg */,
 				5AE6B83D29E095B1005A443C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -139,6 +144,7 @@
 			files = (
 				5AE6B83929E095B0005A443C /* ContentView.swift in Sources */,
 				5AE6B83729E095B0005A443C /* KayPetDiaryApp.swift in Sources */,
+				5AE6B84629E11B10005A443C /* OnboardingScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
