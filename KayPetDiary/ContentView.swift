@@ -15,6 +15,7 @@ struct ContentView: View {
     VStack {
       HStack {
           Text("Welcome, Sandy!")
+          .font(.title2)
 
         Button {
           showingSheet.toggle()
