@@ -14,28 +14,35 @@ struct OnboardingScreen: View {
   var body: some View {
 
     VStack {
-      Button {
-      } label: {
-        Image(systemName: "gearshape")
+      HStack {
+        Image(systemName: "AppIcon")
+
+        Button {
+        } label: {
+          Image(systemName: "gearshape")
+        }
       }
+      .padding(20)
       Spacer()
+
       Text("Enter your pet's info below to get started!")
         .font(.system(size: 20, weight: .heavy, design: .serif))
       Spacer()
-      Button(action: {
-        //code
-      }) {
 
-        HStack {
-         Text("Expenses")
-            .bold()
-            .frame(minWidth: 100, maxWidth: 300, minHeight: 3, maxHeight: 44, alignment: .center)
-            .foregroundColor(Color.white)
-            .background(Color.yellow)
-            .cornerRadius(500)
-            .padding(5)
-        }
-      }
+//      Button(action: {
+//        //code
+//      }) {
+//
+//        HStack {
+//         Text("Expenses")
+//            .bold()
+//            .frame(minWidth: 100, maxWidth: 300, minHeight: 3, maxHeight: 44, alignment: .center)
+//            .foregroundColor(Color.white)
+//            .background(Color.yellow)
+//            .cornerRadius(500)
+//            .padding(5)
+//        }
+//      }
 
       Button(action: {
         //code
@@ -88,7 +95,7 @@ struct OnboardingScreen: View {
       }) {
 
         HStack {
-          Text("Other Information")
+          Text("Expenses")
             .bold()
             .frame(minWidth: 100, maxWidth: 300, minHeight: 44, maxHeight: 44, alignment: .center)
             .foregroundColor(Color.white)
