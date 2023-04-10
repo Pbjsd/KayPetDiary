@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeScreenView.swift
 //  KayPetDiary
 //
 //  Created by Panchi on 4/7/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeScreenView: View {
   @State private var showingSheet = false
 
   var body: some View {
@@ -31,9 +31,9 @@ struct ContentView: View {
     }
   }
 
-  struct ContentView_Previews: PreviewProvider {
+  struct HomeScreenView_Previews: PreviewProvider {
     static var previews: some View {
-      ContentView()
+      HomeScreenView()
     }
   }
 }

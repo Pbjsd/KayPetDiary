@@ -15,7 +15,12 @@ struct OnboardingScreen: View {
 
     VStack {
       HStack {
-        Image(systemName: "AppIcon")
+
+        Text("Welcome to KayPetDiary 🐕")
+          .font(.headline)
+          .italic()
+
+        Spacer()
 
         Button {
         } label: {
