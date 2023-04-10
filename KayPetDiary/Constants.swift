@@ -6,37 +6,16 @@
 //
 
 import Foundation
-import UIKit
+import SwiftUI
 
   struct Design {
 
-    struct Color {
-
-      struct Primary {
-        
-        // example: static let Blue = UIColor.rgba(red: 0, green: 122, blue: 255, alpha: 1)
-
-      }
-
-      struct Secondary {
-
-      }
-
-      struct Grayscale {
-
-      }
-    }
-
-    struct Image {
-
-      // example: static let icoStar = UIImage(named: "ico_imageName")
-
-    }
-
-    struct Font {
+    struct Fontstyle {
 
       // example: static let Body = UIFont.systemFont(ofSize: 16, weight: .regular)
-    //  static let Body = UIFont.systemFontSize(ofSize: 11, weight: .headline)
+
+      static let body1 = Font.system(size: 20, weight: .heavy, design: .serif)
+
 
     }
 
@@ -55,4 +34,3 @@ import UIKit
     // example: static let DB_REF = Firestore.firestore()
     
   }
-

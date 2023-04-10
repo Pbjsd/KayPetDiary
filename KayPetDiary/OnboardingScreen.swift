@@ -31,23 +31,9 @@ struct OnboardingScreen: View {
       Spacer()
 
       Text("Enter your pet's info below to get started!")
-        .font(.system(size: 20, weight: .heavy, design: .serif))
+        .font(Design.Fontstyle.body1)
       Spacer()
 
-//      Button(action: {
-//        //code
-//      }) {
-//
-//        HStack {
-//         Text("Expenses")
-//            .bold()
-//            .frame(minWidth: 100, maxWidth: 300, minHeight: 3, maxHeight: 44, alignment: .center)
-//            .foregroundColor(Color.white)
-//            .background(Color.yellow)
-//            .cornerRadius(500)
-//            .padding(5)
-//        }
-//      }
 
       Button(action: {
         //code
